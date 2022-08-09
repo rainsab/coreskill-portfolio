@@ -17,7 +17,6 @@ body {
     background-color: #0F0F0F;
     background-image: url(bg-head.png);
     background-repeat: no-repeat;
-    background-position-x: -7px;
     color: #DFDFDF;
     font-family: 'Corbel', sans-serif;
     font-weight: 700;
@@ -71,7 +70,7 @@ ul {
     list-style-type: "— ";
     padding-left: 1.375rem;
     margin-top: 0;
-    margin-bottom: 4rem; /* 2rem? */
+    margin-bottom: 4rem;
 }
 
 img {
@@ -82,6 +81,10 @@ img {
 header {
     color: white;
     padding-bottom: 3.5rem;
+}
+
+.p-hero {
+    xwidth: 32rem; /* druha moznost */
 }
 
 .overheading {
