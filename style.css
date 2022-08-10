@@ -4,6 +4,7 @@
 
 xbody {
     background-image: url(mobile.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 0px;
     background-position-y: 0px;
@@ -16,6 +17,7 @@ xbody>* {
 body {
     background-color: #0F0F0F;
     background-image: url(bg-head.png);
+    background-size:contain;
     background-repeat: no-repeat;
     color: #DFDFDF;
     font-family: 'Corbel', sans-serif;
@@ -23,6 +25,12 @@ body {
     font-size: 1.375rem;
     line-height: 1.4545;
     margin: 0 1.25rem;
+}
+
+.section-flex {
+    max-width: 69.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -84,7 +92,7 @@ header {
 }
 
 .p-hero {
-    xwidth: 32rem; /* druha moznost */
+    max-width: 32rem;
 }
 
 .overheading {
@@ -127,11 +135,14 @@ nav a {
 }
 
 .projects {
-    margin-bottom: 4rem; 
+    margin-bottom: 4rem;
 }
 
 .contacts {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
     column-gap: 1.5rem;
 }
