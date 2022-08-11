@@ -135,9 +135,12 @@ nav a {
     margin-bottom: 4rem;
 }
 
-.contacts {
+.section-flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.contacts {
     column-gap: 1.5rem;
 }
 
