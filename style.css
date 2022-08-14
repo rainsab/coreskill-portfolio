@@ -135,17 +135,40 @@ nav a {
     margin-bottom: 4rem;
 }
 
-.section-flex {
+.projects-section {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 3rem;
+}
+
+.projects-section-reverse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    column-gap: 3rem;
+}
+
+.projects-image {
+    flex-basis: 766px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.projects-section-text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 298px;
 }
 
 .contacts {
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 1.5rem;
 }
 
 .contacts-image {
-    flex-basis: 186px;
+    flex-basis: 11.625rem;
     flex-grow: 0;
     flex-shrink: 1;
 }
@@ -153,5 +176,5 @@ nav a {
 .contacts p {
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: 31.5rem;
+    flex-basis: 18.5rem;
 }
