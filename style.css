@@ -147,21 +147,21 @@ nav a {
 }
 
 .projects-image {
-    flex-basis: 320px;
+    flex-basis: 20rem;
     flex-grow: 9999;
     flex-shrink: 1;
 }
 
 .projects-img {
     object-fit: cover;
-    min-height: 320px;
+    min-height: 20rem;
 }
 
 .projects-description {
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 298px;
-    max-width: 520px;
+    flex-basis: 18.625rem;
+    max-width: 32.5rem;
 }
 
 .contacts {
