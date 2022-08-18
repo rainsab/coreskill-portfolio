@@ -136,14 +136,18 @@ header {
         border: 0;
         padding-left: 0;
         display: flex;
-        align-items: center;
     }
 
-    .overheading-line {
-        background-color: red;
-        width: 4.5rem;
+    .overheading::before {
+        content: '';
+        background-color: currentColor;
+        flex-basis: 4.5rem;
+        flex-shrink: 0;
+        flex-grow: 0;
         height: 0.125rem;
         margin-right: 2rem;
+        position: relative;
+        top: calc(0.6875em - 1px);
     }
 }
 
