@@ -60,15 +60,9 @@ h1 {
 
 
 h2 {
-    font-size: 3rem;
+    font-size: clamp(3rem, 2.6667rem + 1.4815vw, 4rem);
     line-height: 1.22;
     margin-top: 1.5rem;
-}
-
-@media (min-width: 1024px) {
-    h2 {
-        font-size: 4rem;
-    }
 }
 
 h3 {
