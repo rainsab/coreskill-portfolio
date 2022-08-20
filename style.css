@@ -99,7 +99,13 @@ img {
 
 header {
     color: white;
-    padding-bottom: 3.5rem; /* 1440px: 20.25rem */
+    padding-bottom: 3.5rem;
+}
+
+@media (min-width: 650px) {
+    header {
+        padding-bottom: clamp(3.5rem, -8.4304rem + 29.3671vw, 18rem);
+    }
 }
 
 .overheading {
