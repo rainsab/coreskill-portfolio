@@ -105,7 +105,7 @@ header {
 .overheading {
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 0.375em;
+    letter-spacing: 0.3125em;
     line-height: 1.375;
     border-left: 2px solid;
     padding-top: 0.3125rem;
@@ -128,7 +128,7 @@ header {
         flex-shrink: 0;
         flex-grow: 0;
         height: 0.125rem;
-        margin-right: 1.5rem;
+        margin-right: 2rem;
         position: relative;
         top: calc(0.6875em - 1px);
     }
