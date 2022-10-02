@@ -29,6 +29,15 @@ body {
     }
 }
 
+@media (min-width: 1440px) {
+    .container {
+        max-width: 120rem;
+        background-image: url(bg-head.png);
+        background-size: 120rem;
+        background-repeat: no-repeat;
+    }
+}
+
 .container-section {
     max-width: 69.5rem;
     margin-left: auto;
@@ -153,6 +162,12 @@ nav {
         justify-content: flex-end;
         margin-left: -0.5rem;
         margin-right: -0.5rem;
+    }
+}
+
+@media (min-width: 1460px) {
+    nav {
+        margin-right: clamp(0rem, -24.0000rem + 26.6667vw, 8rem);;
     }
 }
 
