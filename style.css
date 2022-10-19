@@ -243,6 +243,7 @@ nav a {
 
 .projects-img {
     object-fit: cover;
+    object-position: -1rem;
     min-height: 20rem;
 }
 
