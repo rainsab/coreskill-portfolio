@@ -5,9 +5,10 @@
 body {
     background-color: #0F0F0F;
     color: #DFDFDF;
-    font-family: 'Corbel', sans-serif;
-    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-size: 1.375rem;
+    letter-spacing: 0.015rem;
     line-height: 1.4545;
     margin: 0;
 }
@@ -51,8 +52,8 @@ a {
 h1,
 h2,
 h3 {
-    font-family: 'Constantia', serif;
-    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 h2,
@@ -63,6 +64,7 @@ h3 {
 h1 {
     font-size: max(min(8vw + 1rem, 6.875rem), 4rem);
     line-height: 1.125;
+    letter-spacing: 0.025em;
     margin-top: 1.125rem;
     margin-bottom: 1.875rem;
 }
@@ -71,12 +73,14 @@ h1 {
 h2 {
     font-size: clamp(3rem, 2.6667rem + 1.4815vw, 4rem);
     line-height: 1.22;
+    letter-spacing: 0.05em;
     margin-top: 1.5rem;
 }
 
 h3 {
     font-size: 2.25rem;
     line-height: 1.22;
+    letter-spacing: 0.05em;
     margin-top: 3rem;
     margin-bottom: 1.625rem;
 }
