@@ -234,7 +234,7 @@ nav a {
 }
 
 .projects-image {
-    flex-basis: 20rem;
+    flex-basis: 35rem;
     flex-grow: 9999;
     flex-shrink: 1;
 }
