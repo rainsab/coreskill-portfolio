@@ -115,7 +115,7 @@ header {
 
 @media (min-width: 650px) {
     header {
-        padding-bottom: clamp(3.5rem, 1.8000rem + 8.5000vw, 12rem);
+        padding-bottom: clamp(3.5rem, -0.5945rem + 10.0787vw, 11.5rem);
     }
 }
 
@@ -231,7 +231,7 @@ nav a {
 }
 
 .p-hero {
-    max-width: 31rem;
+    max-width: 34rem;
 }
 
 .projects {
