@@ -189,12 +189,8 @@ nav {
     }
 }
 
-@media (min-width: 1024px) {
-    .technologies-list {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 7rem;
-    }
+.technologies-list {
+    column-count: 2;
 }
 
 nav ul {
