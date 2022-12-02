@@ -189,13 +189,6 @@ nav {
     }
 }
 
-.technologies-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5rem;
-
-}
-
 @media (min-width: 1024px) {
     .technologies-list {
         display: flex;
