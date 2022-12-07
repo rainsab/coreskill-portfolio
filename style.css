@@ -191,6 +191,7 @@ nav {
 
 .technologies-list {
     column-count: 2;
+    column-width: 18ch;
 }
 
 nav ul {
