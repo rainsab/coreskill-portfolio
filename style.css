@@ -190,6 +190,10 @@ nav {
     column-width: 18ch;
 }
 
+.technologies-list li {
+    padding-left: 0.25rem;
+}
+
 nav ul {
     padding: 0;
     margin-top: 0.75rem;
