@@ -57,7 +57,7 @@ h3 {
 h1 {
     font-family: 'Archivo Black', serif;
     text-transform: uppercase;
-    font-size: max(min(8vw + 1rem, 6.875rem), 4rem);
+    font-size: max(min(8vw + 1rem, 6.875rem), 3rem);
     line-height: 1.125;
     letter-spacing: 0.125rem;
     margin-top: 1.5rem;
