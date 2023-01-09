@@ -49,13 +49,13 @@ a {
 
 h2,
 h3 {
-    font-family: 'Archivo', serif;
+    font-family: 'Archivo', sans-serif;
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
 
 h1 {
-    font-family: 'Archivo Black', serif;
+    font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
     font-size: max(min(8vw + 1rem, 6.875rem), 3rem);
     line-height: 1.125;
